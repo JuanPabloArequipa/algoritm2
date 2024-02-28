@@ -1,0 +1,5 @@
+Q2:If we can solve a problem by combining the solutions to its sub-problems, does that mean that we can solve it with
+a DP algorithm?
+
+Answer: No, because the most important thing to apply DP is that we can reuse the already calculated values, it is
+not only to divide the problem into sub-problems, it is needed that occurs an overlapping in sub-problems

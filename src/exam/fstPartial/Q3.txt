@@ -1,0 +1,6 @@
+ Q3: In the Edit-Distance algorithm, when we do an insertion operation why do we need to look at the Edit-Distance of
+ the previous character position of the second string?
+E(i,j) = E(i,j - 1) + 1
+
+ ANSWER:
+ Yes
