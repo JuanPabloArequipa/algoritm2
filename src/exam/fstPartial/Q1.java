@@ -9,8 +9,8 @@ public class Q1 {
         if (n == 1 || n == 2) {
             return 1;
         }
-        if (dp[n] != 0) {
-            return dp[n];
+        if (dp[n] != 0) { //
+            return dp[n]; // If value already calculated, return it
         }
         dp[n] = function(n-1, dp) + function(n-2, dp) + function(n-3, dp);
         return dp[n];

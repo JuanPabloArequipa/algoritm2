@@ -24,7 +24,7 @@ public class Q4 {
 
         int[] dp = new int[n];
         dp[0] = (gifts[0] == sortedGifts[0]) ? 0 : 1;
-
+        // bottom-up
         for (int i = 1; i < n; i++) {
             dp[i] = dp[i - 1] + ((gifts[i] == sortedGifts[i]) ? 0 : 1);
         }
