@@ -1,0 +1,8 @@
+a. Identify the greedy choice.
+Choose the guest with the highest happiness to enter the party, ensuring that guests with higher happiness maximizes the overall happiness and thus the number of people who stay at the party.
+
+b. Identify the optimal substructure.
+Select the guest with the highest happiness to maximize the number of people staying at the party. This decision is independent of previous selections and can be made based solely on the current state of happiness values.
+
+d. What is the time complexity of your solution?
+O(n log n)
