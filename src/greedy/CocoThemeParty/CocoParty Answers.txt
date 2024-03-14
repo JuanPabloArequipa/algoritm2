@@ -1,8 +1,9 @@
 a. Identify the greedy choice:
-Pair guests with the highest and lowest happiness levels. This ensures that the difference in happiness levels between adjacent guests is maximized.
+Take a guest from the starting and other from the end of a non-decreasing sorted guests list.
 
 b. Identify the optimal substructure:
-The maximum enjoyment for a given number of guests can be obtained by considering the maximum enjoyment for a smaller number of guests.
+OptimalSolution(Global) = OptimalSolution (LocalSolution1) U OptimalSolution (Global-LocalSolution1)
+The LocalSolution(n) contains the Global OptimalSolution for n amount of guests
 
 d. Time complexity of the solution:
 N logN (Sort algorithm)
