@@ -4,6 +4,7 @@ import java.util.Scanner;
 
 public class Eggs {
     public static void main(String[] args) {
+        // T= test cases, n = n eggs, P=max eggs amount , Q=max eggs weight
         Scanner input = new Scanner(System.in);
         int nTestCases = input.nextInt();
         int T = 1;
