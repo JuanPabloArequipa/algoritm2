@@ -1,0 +1,11 @@
+a. Greedy choice
+Initialize all indexes to 1, then increase each number greater than 1 every time we perform an addition
+
+b. Optimal sub-structure
+GlobalSolution = Sum index? (LocalSolution(0..n)) : continue;
+
+c. Implement Solution
+DONE
+
+d. What is the time complexity of solution?
+Cuadratico

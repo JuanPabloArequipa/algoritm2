@@ -1,0 +1,11 @@
+Q1: Why do we need to do a formal proof for a greedy algorithm?
+We need a formal proof for a greedy algorithm to ensure its correctness and demonstrate that it always produces an optimal or near-optimal solution.
+
+Q2: When can the Rabin-Karp time complexity can be worse or the same as the naive algorithm?
+The Rabin-Karp time complexity can 2be worse or the same as the naive algorithm when the hash function has collisions or the pattern occurs frequently in the text.
+Example:
+Text:"abababababababababab"
+Pattern: "abab"
+
+Q3: Given a P, what is the highest value we can get in the prefix function and why?
+The highest value is (Prefix <= P.length - 1) because we need at least one element to notice the difference if it is an prefix (or suffix)
