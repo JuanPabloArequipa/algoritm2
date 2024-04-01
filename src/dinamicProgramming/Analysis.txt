@@ -1,0 +1,12 @@
+1. Identify if this problem can be solved with dynamic programming and/or a greedy algorithm
+The problem can be solved with a greedy algorithm.
+
+i. Greedy choice:
+Always choose the largest possible size to divide the chocolate bar, starting from size 1 and incrementing it until it's no longer possible to divide the remaining part of the bar.
+
+ii. Optimal substructure:
+The optimal solution for dividing the chocolate bar of size N can be obtained by considering the optimal solutions for dividing smaller sub-bars of size N-1, N-2, N-3, until the size is lower than N.
+OptimalSolution(Global) = pieces(N-1)...pieces(N-size)
+
+iv. Time complexity:
+O(N), where N is the length of the chocolate bar.
