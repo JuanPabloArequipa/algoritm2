@@ -1,0 +1,19 @@
+Q1.
+Dynamic Programming: technique for solving problems combining the solutions of sub-problems, which must have overlapping
+Greedy: technique to find a global optimum obtained by selecting a local optimum solutions to sub-problems
+
+Q4.
+A. Yes it can be solved by Greedy and DP
+    a) Greedy
+        I. The greedy choice is to select the first N elements of a non-descending sorted array, until the sum of N elements is >=M
+        II. OptimalSubstructure = sum(meals[n]) <= M ? n+1 : return meals.length()
+    b) DP
+        I. Sub-problems:  we divide the main problem into sub-problems based on the remaining time available (M) and the meals that Cube can choose from. Specifically, for each time interval i from 0 to M.
+        II. Overlap: The overlap occurs when we compute the maximum number of meals for different subsets of meals within the same time limit
+
+B. It can be solved by both
+C. Both solutions were done
+D. Time complexity:
+                    O(N*M)
+
+
